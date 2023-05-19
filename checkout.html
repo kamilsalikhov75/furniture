@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Мебель на заказ</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__container">
+        <a href="/" class="header__logo">
+          <img src="./images/logo.svg" class="header__img" />
+        </a>
+        <nav class="header__navigation">
+          <a href="/catalog.html" class="header__navigation-link">Каталог</a>
+          <a href="/contact.html" class="header__navigation-link">
+            Связаться с нами
+          </a>
+        </nav>
+        <a href="/checkout.html" class="checkout__link">Рассчитать стоимость</a>
+      </div>
+    </header>
+    <div class="checkout">
+      <div class="container">
+        <h1 class="title">Оформление заявки</h1>
+        <div class="checkout__block">
+          <p class="checkout__text">
+            Расскажите о желаемой мебели и с вами свяжутся наши менеджеры для
+            уточнения деталей и цены.
+          </p>
+          <form
+            class="checkout__form"
+            action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSe01Ih93gRr4S2R0wXE9ZURvMgRL_aKDVL-wJNN8Br8SVHtLg/formResponse"
+          >
+            <input
+              name="entry.1966141790"
+              type="text"
+              class="checkout__input"
+              placeholder="Ваше имя"
+              required
+            />
+            <input
+              name="entry.1255315382"
+              type="text"
+              class="checkout__input"
+              placeholder="Ваше номер телефона"
+              required
+            />
+            <textarea
+              name="entry.353490078"
+              placeholder="Кратко опишите мебель, о которой вы мечтаете"
+              class="checkout__textarea"
+              required
+            ></textarea>
+            <button type="submit" class="checkout__button">
+              Оставить заявку
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="container footer__container">
+        <a href="/" class="footer__logo">
+          <img src="./images/logo.svg" class="footer__img" />
+        </a>
+        <a href="/contact.html" class="footer__navigation-link">
+          Связаться с нами
+        </a>
+        <a href="/checkout.html" class="checkout__link">Рассчитать стоимость</a>
+      </div>
+    </footer>
+  </body>
+</html>
